@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Aware</title>
+    <link rel="stylesheet" href="CSS/indexstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+<body>
+    <div class="navbar">
+        <img src="HTML/images/mainlogoc.png" alt="">
+        <a href="HTML/LogIN/Signup.html"><i class='bx bxs-user-circle'></i></a>
+        <a href="#footer"><i class='bx bx-menu'> </i></a>
+        
+    </div>
+    <div class="heading">
+        <h2>What is Water Pollution ?</h2>
+        <p>Water pollution occurs when harmful substances, such as chemicals or microorganisms, contaminate bodies of water. This contamination can harm aquatic life, affect human health, and degrade water quality. Sources of water pollution include industrial discharge, agricultural runoff, and improper waste disposal. Prevention and mitigation efforts are crucial to protect our water resources and ecosystems.</p>
+        <div ><a href="#content">More Info...</a><a href="HTML/solution.html">Explore Solutions!</a></div>
+    </div>
+    <div class="main_container">
+        <img src="HTML/images/test2.jpg" alt="">
+        <div class="search_bar" id="bar">
+            <i class='bx bx-search' ></i>
+            <input type="text" onsubmit="redirect()" placeholder="Search" oninput="search_function()" onclick="show_menu()" onblur="remove_menu()" id="search_bar">
+            
+            <div id="menu">
+                <div class="search-card" id="Agricultural Runoff"><a href="#card1">Agricultural Runoff</a></div>
+                <div  class="search-card" id="Improper Waste Disposal"><a href="#card2support">Improper Waste Disposal</a></div>
+                <div  class="search-card"  id="Urbanization"><a href="#card3">Urbanization</a></div>
+                <div class="search-card"  id="Industrial Discharge"><a href="#card4support">Industrial Discharge</a></div>
+                <div  class="search-card" id="Mining Activities"><a href="#card5">Mining Activities</a></div> 
+                <div class="search-card"  id="World Health Organisation(WHO)"><a href="https://www.who.int/">World Health Organisation</a></div> 
+                <div class="search-card"  id="sustainable development goals(SDGS)"><a href="https://sdgs.un.org/goals">Sustainable Development Goals</a></div> 
+                <div class="search-card"  id="Causes of Water Pollution"><a href="#content">Causes of Water Pollution</a></div> 
+                <div class="search-card"  id="Methods to Tackle Water Pollution"><a href="HTML/solution.html">Methods to Tackle Water Pollution</a></div> 
+                <div class="search-card"  id="Wastewater Treatment"><a href="HTML/solution.html#Wastewater Treatment">Wastewater Treatment</a></div> 
+                <div class="search-card"  id="Plastic Waste Reduction"><a href="HTML/solution.html#Plastic Waste Reduction">Plastic Waste Reduction</a></div> 
+                <div class="search-card"  id="Water Conservation"><a href="HTML/solution.html#Water Conservation">Water Conservation</a></div> 
+                <div class="search-card"  id="Denitrification"><a href="HTML/solution.html#Denitrification">Denitrification</a></div> 
+                <div class="search-card"  id="Stormwater Management"><a href="HTML/solution.html#Stormwater Management">Stormwater Management</a></div> 
+                <div class="search-card"  id="Green Agriculture"><a href="HTML/solution.html#Green Agriculture">Green Agriculture</a></div> 
+                <div>No more Results Found</div>
+            </div>
+            <div id="icons">
+                <a href="about.html" target="_blank"><button><i class='bx bxs-info-circle' ></i>About</button></a>
+                <a href="LogIN/Signup.html"><button><i class='bx bxs-user-circle' ></i> SignUp</button></a>
+                <a href="https://drive.google.com/drive/folders/1v-YRCXLV10GjiKD5O1X68CUbpCplTlmi?usp=drive_link"><button><i class='bx bxs-donate-blood' ></i>Donate</button></a>
+                <a href="https://ewqdes.cpcb.gov.in/wqi/"><button><i class='bx bxs-tachometer' ></i>WQI</button></a>
+                <a href="mailto:vkhantwal992@gmail.com  "><button><i class='bx bxs-phone' ></i>Contact</button></a>
+            </div>
+        </div>
+        
+
+    </div>
+    <div id="content" class="content">
+        <div class="card animation-element slide-left"  id="card1" >
+            <h3>Agricultural Runoff</h3>
+            <p>Soil erosion from <img src="HTML/images/runoff.jpg" alt=""> agricultural activities can lead to sediment-laden runoff, reducing water clarity and disrupting aquatic habitats. Fertilizers containing nitrogen and phosphorus can be washed into water bodies, causing eutrophication and creating "dead zones" due to oxygen depletion. Pesticides and herbicides used to protect crops can contaminate water, harming aquatic life and potentially affecting human health. Additionally, animal waste from livestock operations can introduce pathogens into water sources, leading to waterborne diseases. Moreover, certain agricultural practices can introduce heavy metals into the environment, posing risks to both aquatic ecosystems and human health. <br><a href="https://en.wikipedia.org/wiki/Agricultural_pollution#:~:text=Pollutants%20from%20agriculture%20greatly%20affect,pollutants%20that%20enter%20the%20environment."><button>Read More</button></a></p>
+           
+            
+        </div>
+        <img class="card animation-element slide-right " src="HTML/images/SDG.png" alt="">
+        <img  class="card animation-element slide-left" src="HTML/images/PLASTICOCEAN.jpg" alt="" style="height: 422px;">
+        <div class="card animation-element slide-right " id="card2">
+            <h1 style="width: 100px; height: 0px;" id="card2support"></h1>
+            <h3>Improper Waste Disposal</h3>
+            <p><img style="float: left;" src="HTML/images/wastedisposal.jpg" alt=""> When waste, including household garbage, industrial waste, and hazardous materials, is improperly disposed of, it can leach into the soil and make its way into water bodies through runoff or groundwater infiltration. This contamination can introduce a variety of pollutants into the water, including organic matter, heavy metals, chemicals, and pathogens. Organic waste can deplete oxygen levels in water, leading to the death of aquatic organisms, while heavy metals and chemicals can accumulate in aquatic ecosystems, posing risks to aquatic life and human health. Pathogens from untreated sewage can also contaminate water, causing waterborne diseases. Proper waste management practices, such as recycling, composting, and the safe disposal of hazardous materials, are crucial for preventing water pollution and protecting our water resources. <br><a href="https://en.wikipedia.org/wiki/Special:Search?go=Go&search=improper+waste+disposal&ns0=1"><button>Read More</button></a></p>
+            
+        </div>
+        <div class="card animation-element slide-left" id="card3">
+            <h3>Urbanization</h3>
+            <p><img src="HTML/images/urbanization.jpg" alt=""> As cities expand, the increase in impervious surfaces like roads, rooftops, and parking lots reduces the amount of land where rainwater can naturally infiltrate the ground. This leads to increased surface runoff, which can carry pollutants like oil, heavy metals, and litter into nearby water bodies.
+                
+                Additionally, urban areas often have inadequate wastewater treatment systems, leading to the discharge of untreated or inadequately treated sewage into rivers, lakes, and oceans. This can introduce pathogens, nutrients, and chemicals into the water, posing risks to aquatic ecosystems and public health.<br><a href="https://en.wikipedia.org/w/index.php?search=urbanization&title=Special:Search&profile=advanced&fulltext=1&ns0=1"><button>Read More</button></a></p>
+                
+            </div>
+            <img class="card animation-element slide-right" src="HTML/images/sdg6.png" alt="">
+            
+            <img class="card animation-element slide-left" src="HTML/images/sdg14.png" alt="">
+            <div class="card animation-element slide-right" id="card4">
+                <h1 style="width: 100px; height: 0px;" id="card4support"></h1>
+                <h3>Industrial Discharge</h3>
+                <p><img style="float: left;" src="HTML/images/industrial.jpg" alt=""> metals from Industrial Discharge like lead and mercury can accumulate in aquatic ecosystems, posing risks to aquatic life and human health. Toxic chemicals from industrial processes can harm aquatic organisms and persist in the environment, contaminating water supplies. Organic pollutants, including oils and hydrocarbons, can reduce oxygen levels in water, affecting aquatic life. Additionally, nutrient-rich wastewater can lead to eutrophication, causing harmful algal blooms and oxygen depletion. Effective wastewater treatment and pollution prevention measures are crucial to mitigate the impacts of industrial discharge on water quality and protect our water resources.<br><a href="https://en.wikipedia.org/w/index.php?search=industrial+discharge&title=Special:Search&profile=advanced&fulltext=1&ns0=1"><button>Read More</button></a></p>
+            </div>
+            <div class="card animation-element slide-left" id="card5">
+            <h3>Mining Activities</h3>
+            <p><img src="HTML/images/mining.jpg" alt="">During mining operations, chemicals such as cyanide, sulfuric acid, and heavy metals like lead, mercury, and arsenic can be used or generated. If not properly managed, these chemicals can leach into nearby water sources, contaminating both surface water and groundwater. This contamination can have detrimental effects on aquatic ecosystems, harming fish and other aquatic life, and can also pose risks to human health through drinking water contamination and consumption of contaminated fish and seafood. Additionally, sediment runoff from mining sites can degrade water quality by increasing turbidity, reducing water clarity, and disrupting aquatic habitats. Proper management practices, including the use of containment ponds, water treatment facilities, and erosion control measures, are essential to minimize the environmental impacts of mining activities on water resources.<br><a href="https://en.wikipedia.org/w/index.php?search=mining+activities&title=Special:Search&profile=advanced&fulltext=1&ns0=1"><button>Read More</button></a></p>
+        </div>
+        <img class="card animation-element slide-right" src="HTML/images/PLANET.png" alt="" style="height: 392px;">
+        
+    </div>
+
+    
+
+
+    <div class="footer-basic" id="footer">
+        <footer>
+            <div class="social"><a href="#"><i class='bx  bxl-instagram-alt'></i></a><a href="#"><i class='bx bxl-twitter' ></i></a><a href="https://www.youtube.com/watch?v=MEb7nnMLcaA"><i class='bx bxl-youtube' ></i></a><a href="#"><i class='bx bxl-meta' ></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="HTML/LogIN/Signup.html">SignUp</a></li>
+                <li class="list-inline-item"><a href="HTML/about.html" target="_blank">About</a></li>
+                <li class="list-inline-item"><a href="https://drive.google.com/drive/folders/1v-YRCXLV10GjiKD5O1X68CUbpCplTlmi?usp=drive_link">Contribute</a></li>
+                <li class="list-inline-item"><a href="https://en.wikipedia.org/wiki/Water_pollution">Read More</a></li>
+            </ul>
+            <p class="copyright">Aqua Aware 2024</p>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="JS/indexscript.js"></script>
+</body>
+</html>
